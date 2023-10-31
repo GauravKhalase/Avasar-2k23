@@ -12,27 +12,27 @@ const renderer = ({ total, days, hours, minutes, seconds }) => {
     // Render a countdown
     return (
       <div
-        className=" w-[400px] flex flex-row rounded-xl  justify-center pt-1 pb-3 gap-3 border-2 border-white mx-auto my-20"
+        className=" relative w-[330px] flex flex-row rounded-xl  justify-center pt-2 pb-3 gap-3 border-2 border-white mx-auto"
         style={{ color: "white" }}
       >
         <div className="flex flex-col ">
-          <span className="text-[34px] font-bold ">{days}</span>
-          <span className="text-[12px]">DAYS</span>
+          <span className="text-[28px] font-bold ">{days}</span>
+          <span className="text-[10px]">DAYS</span>
         </div>
-        <span className="text-[34px] font-bold ">:</span>
+        <span className="text-[28px] font-bold ">:</span>
         <div className="flex flex-col justify-center items-center">
-          <span className="text-[34px] font-bold ">{hours}</span>
-          <span className="text-[12px]">HOURS</span>
+          <span className="text-[28px] font-bold ">{hours}</span>
+          <span className="text-[10px]">HOURS</span>
         </div>
-        <span className="text-[34px] font-bold ">:</span>
+        <span className="text-[28px] font-bold ">:</span>
         <div className="flex flex-col justify-center items-center">
-          <span className="text-[34px] font-bold ">{minutes}</span>
-          <span className="text-[12px]">MINUTES</span>
+          <span className="text-[28px] font-bold ">{minutes}</span>
+          <span className="text-[10px]">MINUTES</span>
         </div>
-        <span className="text-[34px] font-bold ">:</span>
+        <span className="text-[28px] font-bold ">:</span>
         <div className="flex flex-col justify-center items-center">
-          <span className="text-[34px] font-bold ">{seconds}</span>
-          <span className="text-[12px]">SECONDS</span>
+          <span className="text-[28px] font-bold ">{seconds}</span>
+          <span className="text-[10px]">SECONDS</span>
         </div>
       </div>
     );
